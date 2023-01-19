@@ -1,0 +1,1495 @@
+{
+  "firstLayout": "CNG_MainMenu",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.ikmalsaid.carng",
+    "pixelsRounding": false,
+    "projectUuid": "8ffd051d-31b2-433d-bcef-d4a183a17f58",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Car-NG",
+    "description": "Ikmal Said's entry for GDevelop Game Jam #2!",
+    "author": "Ikmal Said",
+    "windowWidth": 1024,
+    "windowHeight": 640,
+    "latestCompilationDirectory": "D:\\GDJAM2",
+    "maxFPS": 60,
+    "minFPS": 60,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": "assets\\CNG_LiluoThumb.png"
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "assets\\CNG_LiluoThumb.png",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 1,
+      "logoAndProgressLogoFadeInDelay": 3,
+      "minDuration": 3,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": false,
+      "showProgressBar": false
+    },
+    "authorIds": [
+      "6KhTpftJxca4kbgWFu11sytmVHo2"
+    ],
+    "categories": [
+      "shooter",
+      "platformer",
+      "leaderboard",
+      "adventure"
+    ],
+    "playableDevices": [
+      "keyboard"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CNG_MainMenu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CNG_MainMenu.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/U_StartGame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\U_StartGame.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S_StartGame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\S_StartGame.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/U_Achievements.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\U_Achievements.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S_Achievements.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\S_Achievements.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S_Options.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\S_Options.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/U_Options.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\U_Options.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CNG_GameOptions.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CNG_GameOptions.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CNG_LevelSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CNG_LevelSelect.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/U_Back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\U_Back.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S_Back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\S_Back.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/U_World1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\U_World1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S_World1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\S_World1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/U_World2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\U_World2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S_World2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\S_World2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/U_World3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\U_World3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S_World3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\S_World3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/U_Sounds.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\U_Sounds.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S_Sounds.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\S_Sounds.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/U_Music.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\U_Music.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S_Music.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\S_Music.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/U_Touch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\U_Touch.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S_Touch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\S_Touch.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/click.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\click.mp3",
+        "preloadAsMusic": true,
+        "preloadAsSound": true,
+        "preloadInCache": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/back.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\back.mp3",
+        "preloadAsMusic": true,
+        "preloadAsSound": true,
+        "preloadInCache": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Trucker Body.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Trucker Body.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Characters/Hill Climb/Truck/Trucker Body.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Trucker Wheel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Trucker Wheel.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Characters/Hill Climb/Truck/Trucker Wheel.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Car Girl Head.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Car Girl Head.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Characters/Hill Climb/Girl/Car Girl Head.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Trucker Head.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Trucker Head.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Characters/Hill Climb/Truck/Trucker Head.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Desert Tile_all_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Desert Tile_all_64.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Desert/9patch_Desert Tile_all_64.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Desert Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Desert Background.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Desert/Desert Background.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Crate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Crate.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Desert/Objects/Crate.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tree.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Desert/Objects/Tree.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Stone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Stone.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Desert/Objects/Stone.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CT.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CT.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bullet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bullet.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/Xplode32X-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\explosion\\Xplode32X-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/Xplode32X-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\explosion\\Xplode32X-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/Xplode32X-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\explosion\\Xplode32X-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/Xplode32X-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\explosion\\Xplode32X-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/Xplode32X-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\explosion\\Xplode32X-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/Xplode32X-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\explosion\\Xplode32X-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/Xplode32X-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\explosion\\Xplode32X-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/Xplode32X-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\explosion\\Xplode32X-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/Xplode32X-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\explosion\\Xplode32X-9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/Xplode32X-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\explosion\\Xplode32X-10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/Xplode32X-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\explosion\\Xplode32X-11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/Xplode32X-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\explosion\\Xplode32X-12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/Xplode32X-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\explosion\\Xplode32X-13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/Xplode32X-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\explosion\\Xplode32X-14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/Xplode32X-15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\explosion\\Xplode32X-15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion/Xplode32X-16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\explosion\\Xplode32X-16.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/explode.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\explode.mp3",
+        "preloadAsMusic": true,
+        "preloadAsSound": true,
+        "preloadInCache": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/shot.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\shot.mp3",
+        "preloadAsMusic": true,
+        "preloadAsSound": true,
+        "preloadInCache": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/vroom.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\vroom.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/desert.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\desert.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/carng.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\carng.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "fonts/CarNG_Bold60.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "fonts\\CarNG_Bold60.fnt",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fonts/CarNG_Bold60_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fonts\\CarNG_Bold60_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DeadZone-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\DeadZone-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CNG_GameOver.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CNG_GameOver.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/U_Again.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\U_Again.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S_Again.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\S_Again.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/U_Menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\U_Menu.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S_Menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\S_Menu.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cat/Creme-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cat\\Creme-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cat/Creme-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cat\\Creme-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cat/Creme-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cat\\Creme-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cat/Creme-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cat\\Creme-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cat/Creme-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cat\\Creme-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cat/Creme-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cat\\Creme-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cat/Creme-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cat\\Creme-1-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cat/Creme-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cat\\Creme-1-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Desert Tile Platform Center.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Desert Tile Platform Center.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Desert/tiled_Desert Tile Platform Center.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WinZone-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\WinZone-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CNG_Win.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CNG_Win.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/U_Submit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\U_Submit.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S_Submit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\S_Submit.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/U_NoSub.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\U_NoSub.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S_NoSub.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\S_NoSub.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Graveyard Tile_all_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Graveyard Tile_all_64.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Graveyard/9patch_Graveyard Tile_all_64.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Graveyard Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graveyard Background.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Graveyard/Graveyard Background.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Crate2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Crate.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Graveyard/Objects/Crate.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tree.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Graveyard/Objects/Tree.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Graveyard/Objects/Skeleton.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Graveyard Tile_all_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\9patch_Graveyard Tile_all_64.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Crate2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Crate2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Graveyard Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Graveyard Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/graveyard.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\graveyard.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tree2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Skeleton.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/dead.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\dead.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/win.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\win.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/cat.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\cat.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Summer Tile_all_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Summer Tile_all_64.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Summer/9patch_Summer Tile_all_64.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Summer Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Summer Background.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Summer/Summer Background.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tree 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Summer/Objects/Tree 2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Crate3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Crate.png3",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Summer/Objects/Crate.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Stone2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Stone.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Summer/Objects/Stone.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Summer Tile_all_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\9patch_Summer Tile_all_64.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Summer Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Summer Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tree 2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Stone2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Stone2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Crate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Crate.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/summer.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\summer.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CNG_LiluoThumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CNG_LiluoThumb.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "BG",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\CNG_MainMenu.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\CNG_GameOptions.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\CNG_LevelSelect.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\CNG_GameOver.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\CNG_Win.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "BK",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\U_Back.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\S_Back.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "CC",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "EC",
+      "type": "number",
+      "value": 10
+    },
+    {
+      "folded": true,
+      "name": "PH",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "folded": true,
+      "name": "PN",
+      "type": "string",
+      "value": ""
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cng_mainmenu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cng_levelselect"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cng_leaderboards"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cng_options"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cng_summer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cng_graveyard"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cng_desert"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cng_win"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cng_gameover"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/multitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flashtransitionpainter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/camerashake"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sinemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/timeformatter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/isonscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/checkbox"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/repeateveryxseconds"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/checkpoints"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/turret"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
